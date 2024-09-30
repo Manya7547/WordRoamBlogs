@@ -1,9 +1,31 @@
-# React + Vite
+# Stack Overview:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Appwrite:
 
-Currently, two official plugins are available:
+- Serving as the backend-as-a-service, Appwrite provides authentication, database, storage, and functions for the application.
+- It helps in managing the backend without writing boilerplate server-side code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# WordRoamBlogs
+2. TinyMCE:
+
+- A rich text editor used to create and format blog content.
+- Allows users to easily write, edit, and format text, including adding links, images, and other rich content elements.
+
+3. react-router-dom:
+
+- Used for client-side routing, providing a smooth navigation experience between different pages or sections of the application.
+- Enables features like nested routes and dynamic routing, contributing to a single-page application (SPA) experience.
+
+4. html-react-parser:
+
+- Converts HTML strings into React components.
+- This helps in rendering the rich text content (created using TinyMCE) directly in React, maintaining interactivity and responsiveness.
+
+5. Redux:
+
+- Manages the global state of the application, helping in sharing data between different components effectively.
+- Useful for handling application-wide state such as user authentication status, blog posts, and editor settings.
+
+6. react-hook-form:
+
+- Used for form management, making it easier to handle input validation, submission, and error messages.
+- Works efficiently with React hooks, providing a simple and effective way to manage user input, especially for creating and editing blog posts.
