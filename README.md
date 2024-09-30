@@ -29,3 +29,17 @@
 
 - Used for form management, making it easier to handle input validation, submission, and error messages.
 - Works efficiently with React hooks, providing a simple and effective way to manage user input, especially for creating and editing blog posts.
+
+### Environment Variables
+
+- If you're using Create React App, environment variables should be prefixed with REACT*APP*:
+
+```javascript
+console.log(process.env.REACT_APP_VARIABLENAME);
+```
+
+- If you're using Vite, the environment variables should be prefixed with VITE\_:
+
+```javascript
+console.log(import.meta.env.VITE_VARIABLE_NAME);
+```
