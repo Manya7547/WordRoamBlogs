@@ -4,6 +4,7 @@
 
 - Serving as the backend-as-a-service, Appwrite provides authentication, database, storage, and functions for the application.
 - It helps in managing the backend without writing boilerplate server-side code.
+-
 
 2. TinyMCE:
 
